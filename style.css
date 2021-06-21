@@ -7,16 +7,29 @@
 
 main {
     height: 100vh;
-    background: linear-gradient(to right, #5ec4d8, #9efade);
-    background-attachment: fixed;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .container {
-    width: 1000px;
+    width: 70%;
     background: linear-gradient(220deg, #f3f3f3a6, #ffffff3d);
     margin: auto;
     height: 80vh;
@@ -27,8 +40,8 @@ main {
 }
 
 .circle1 {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background: linear-gradient(90deg, #ffffff9a, #ffffff46);
     position: absolute;
@@ -74,4 +87,36 @@ main {
     font-weight: bolder;
     margin-top: 50px;
     text-align: center;
+    background: #0B51BA;
+background: -webkit-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
+background: -moz-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
+background: linear-gradient(-45deg, #23a2d5, #235bd5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: #0B51BA;
+background: -webkit-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
+background: -moz-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
+background: linear-gradient(-45deg, #23a2d5, #235bd5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    width: 200px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
 }
