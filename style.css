@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+main {
+    height: 100vh;
+    background: linear-gradient(to right, #5ec4d8, #9efade);
+    background-attachment: fixed;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1000px;
+    background: linear-gradient(220deg, #f3f3f3a6, #ffffff3d);
+    margin: auto;
+    height: 80vh;
+    border-radius: 50px;
+    margin-top: 10vh;
+    z-index: 2;
+    backdrop-filter: blur(20px);
+}
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #ffffff9a, #ffffff46);
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    z-index: 1;
+}
+
+.circle2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(290deg, #ffffffe7, #f7f7f779);
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    z-index: 1;
+    
+}
+
+.drawer {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(139deg, #efefefad, #ffffff4d);
+    border-radius: 50px;
+}
