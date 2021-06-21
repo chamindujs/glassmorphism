@@ -37,6 +37,8 @@ main {
     margin-top: 10vh;
     z-index: 2;
     backdrop-filter: blur(20px);
+    -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.33); 
+box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.33);
 }
 
 .circle1 {
