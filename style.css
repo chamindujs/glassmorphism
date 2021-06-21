@@ -90,7 +90,7 @@ main {
     background: #0B51BA;
 background: -webkit-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
 background: -moz-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
-background: linear-gradient(-45deg, #23a2d5, #235bd5);
+background: linear-gradient(-46deg, #23a2d5, #235bd5);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 -webkit-background-clip: text;
