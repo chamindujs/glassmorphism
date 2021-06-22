@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
     <title>App</title>
 </head>
 <body>
@@ -34,6 +36,24 @@
 
     <div class="circle2"></div>
 
+<script src="./app.js"></script>
 
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBjRmkFunC6CqaxfkAvObXk79lkpMzrFJc",
+      authDomain: "test-b6b51.firebaseapp.com",
+      projectId: "test-b6b51",
+      storageBucket: "test-b6b51.appspot.com",
+      messagingSenderId: "785101267421",
+      appId: "1:785101267421:web:88ad029e2da900ad919634"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(config);
+    const db = firebase.firestore()
+    db.settings({ timestampsInSnapshots: true})
+  </script>
 </body>
+
+
 </html>
