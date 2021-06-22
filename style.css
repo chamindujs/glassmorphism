@@ -122,3 +122,10 @@ a {
     text-decoration: none;
     font-weight: 500;
 }
+
+.content {
+    top: 0;
+    right: 0;
+    color: black;
+    font-size: 30px;
+}
