@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
     <title>App</title>
 </head>
 <body>
@@ -36,23 +37,27 @@
 
     <div class="circle2"></div>
 
-<script src="./app.js"></script>
+
 
 <script>
     // Your web app's Firebase configuration
     var firebaseConfig = {
-      apiKey: "AIzaSyBjRmkFunC6CqaxfkAvObXk79lkpMzrFJc",
-      authDomain: "test-b6b51.firebaseapp.com",
-      projectId: "test-b6b51",
-      storageBucket: "test-b6b51.appspot.com",
-      messagingSenderId: "785101267421",
-      appId: "1:785101267421:web:88ad029e2da900ad919634"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(config);
-    const db = firebase.firestore()
-    db.settings({ timestampsInSnapshots: true})
+    apiKey: "AIzaSyBjAtcmGIpJt0IwMBKwMyhQJj1hJ5rQCnw",
+    authDomain: "ddfg-31716.firebaseapp.com",
+    projectId: "ddfg-31716",
+    storageBucket: "ddfg-31716.appspot.com",
+    messagingSenderId: "34787553765",
+    appId: "1:34787553765:web:c2a3f0338335ee013a3f0c",
+    measurementId: "G-2ZGQH89BR5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+            const db = firebase.firestore();
+            
   </script>
+
+<script src="app.js"></script>
 </body>
 
 
