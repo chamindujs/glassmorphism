@@ -7,7 +7,7 @@
 
 main {
     height: 100vh;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e);
 	background-size: 400% 400%;
 	animation: gradient 25s ease infinite;
     color: whitesmoke;
@@ -29,74 +29,48 @@ main {
 }
 
 .container {
-    width: 70%;
+    width: 40%;
     background: linear-gradient(220deg, #f3f3f3a6, #ffffff3d);
     margin: auto;
-    height: 80%;
+    height: 50%;
     border-radius: 50px;
-    margin-top: 10vh;
+    margin-top: 25vh;
     z-index: 2;
     backdrop-filter: blur(20px);
     -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.33); 
 box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.33);
-}
-
-.circle1 {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background: linear-gradient(90deg, #ffffff9a, #ffffff46);
-    position: absolute;
-    right: 100px;
-    top: 50px;
-    z-index: 1;
-}
-
-.circle2 {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: linear-gradient(290deg, #ffffffe7, #f7f7f779);
-    position: absolute;
-    left: 100px;
-    top: 600px;
-    z-index: 1;
-    
-}
-
-.drawer {
-    position: relative;
-    width: 300px;
-    height: 100%;
-    background: linear-gradient(139deg, #efefefad, #ffffff4d);
-    border-radius: 50px;
-    display: flex;
+display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dp {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 40px;
-}
 
-.name {
+.title {
     width: 250px;
-    color: rgb(33, 66, 136);
-    font-size: 22px;
+    color: rgb(39, 18, 11);
+    font-size: 35px;
     font-weight: bolder;
     margin-top: 50px;
     text-align: center;
-    background: #0B51BA;
-background: -webkit-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
-background: -moz-linear-gradient(to left, #0B51BA 74%, #1189D9 100%);
-background: linear-gradient(-46deg, #23a2d5, #235bd5);
-	background-size: 400% 400%;
-	animation: gradient 25s ease infinite;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.usrname {
+    width: 250px;
+    padding: 5px;
+     font-size: 20px;
+     background-color: #ffffff00;
+     color: #000000;
+    ;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.0);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.0);
+     border-bottom: 2px black;
+    
 }
 
 .links {
